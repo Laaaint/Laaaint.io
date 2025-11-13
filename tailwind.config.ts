@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        pixel: {
+          gold: "hsl(var(--pixel-gold))",
+          navy: "hsl(var(--pixel-navy))",
+          graphite: "hsl(var(--pixel-graphite))",
+          black: "hsl(var(--pixel-black))",
+          coin: "hsl(var(--pixel-coin))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +87,48 @@ export default {
             height: "0",
           },
         },
+        "coinSpin": {
+          "0%, 100%": { 
+            transform: "rotateY(0deg) scale(1)",
+          },
+          "50%": { 
+            transform: "rotateY(180deg) scale(1.1)",
+          },
+        },
+        "blockBounce": {
+          "0%, 100%": { 
+            transform: "translateY(0)",
+          },
+          "50%": { 
+            transform: "translateY(-10px)",
+          },
+        },
+        "pixelFloat": {
+          "0%, 100%": { 
+            transform: "translateY(0px)",
+          },
+          "50%": { 
+            transform: "translateY(-20px)",
+          },
+        },
+        "powerUp": {
+          "0%": { 
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          "100%": { 
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "coin-spin": "coinSpin 2s ease-in-out infinite",
+        "block-bounce": "blockBounce 0.5s ease-in-out",
+        "pixel-float": "pixelFloat 3s ease-in-out infinite",
+        "power-up": "powerUp 0.5s ease-out",
       },
     },
   },
