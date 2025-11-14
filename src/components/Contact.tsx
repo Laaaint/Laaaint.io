@@ -13,7 +13,7 @@ const Contact = () => {
             PRESS START
           </h2>
           <p className="text-xs md:text-sm text-muted-foreground">
-            Pronta para colaborar no seu próximo projeto
+            Ready to collaborate on your next project
           </p>
         </div>
 
@@ -26,10 +26,10 @@ const Contact = () => {
 
           <div className="space-y-4">
             <p className="text-sm md:text-base text-foreground">
-              Vamos criar algo incrível juntos?
+              Shall we build something amazing together?
             </p>
             <p className="text-xs text-muted-foreground">
-              Entre em contato através das redes sociais ou e-mail
+              Get in touch via social networks or email
             </p>
           </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
 
         <div className="mt-12 text-center">
           <p className="text-xs text-muted-foreground">
-            © 2024 • Desenvolvido com ❤️ e muito ☕
+            © 2024 • Built with ❤️ and lots of ☕
           </p>
           <p className="text-xs text-accent mt-2">
             PLAYER_01 • DATA ANALYST + FULLSTACK DEV

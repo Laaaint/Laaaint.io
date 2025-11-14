@@ -39,7 +39,7 @@ const Skills = () => {
             SKILLS TREE
           </h2>
           <p className="text-xs md:text-sm text-muted-foreground">
-            Habilidades desbloqueadas ao longo da jornada
+            Skills unlocked along the journey
           </p>
         </div>
 

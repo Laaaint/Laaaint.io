@@ -4,28 +4,28 @@ import { ExternalLink, Github, Star } from "lucide-react";
 const projects = [
   {
     title: "DASHBOARD ANALYTICS",
-    description: "Análise de dados completa com visualizações interativas e insights em tempo real",
+    description: "Comprehensive data analysis with interactive visualizations and real-time insights",
     tech: ["Python", "Power BI", "SQL"],
     level: "LEVEL 10",
     stars: 5,
   },
   {
     title: "E-COMMERCE FULLSTACK",
-    description: "Plataforma completa de e-commerce com carrinho, pagamentos e painel admin",
+    description: "Full-stack e-commerce platform with cart, payments, and admin panel",
     tech: ["React", "Node.js", "PostgreSQL"],
     level: "LEVEL 9",
     stars: 5,
   },
   {
     title: "DATA PIPELINE",
-    description: "Pipeline automatizado de ETL processando milhares de registros diariamente",
+    description: "Automated ETL pipeline processing thousands of records daily",
     tech: ["Python", "Pandas", "API"],
     level: "LEVEL 8",
     stars: 4,
   },
   {
     title: "PORTFOLIO GEEK",
-    description: "Site portfólio com tema pixel art e animações interativas inspiradas em jogos",
+    description: "Portfolio site with pixel art theme and interactive game-inspired animations",
     tech: ["React", "TypeScript", "Tailwind"],
     level: "LEVEL 10",
     stars: 5,
@@ -41,10 +41,10 @@ const Projects = () => {
             <p className="text-xs text-accent">★ ACHIEVEMENTS ★</p>
           </div>
           <h2 className="text-2xl md:text-4xl text-accent gold-glow text-shadow-pixel mb-4">
-            PROJETOS CONCLUÍDOS
+            COMPLETED PROJECTS
           </h2>
           <p className="text-xs md:text-sm text-muted-foreground">
-            Cada projeto é uma fase conquistada com sucesso
+            Each project is a level successfully completed
           </p>
         </div>
 
@@ -116,7 +116,7 @@ const Projects = () => {
             variant="outline"
             className="pixel-button border-4 border-accent hover:bg-accent hover:text-background text-sm"
           >
-            VER TODOS OS PROJETOS
+            VIEW ALL PROJECTS
           </Button>
         </div>
       </div>

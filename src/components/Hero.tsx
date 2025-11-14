@@ -28,14 +28,14 @@ const Hero = () => {
           </div>
 
           <h1 className="text-3xl md:text-5xl lg:text-6xl leading-tight text-shadow-pixel text-foreground space-y-4">
-            <span className="block text-accent gold-glow">ANALISTA DE DADOS</span>
+            <span className="block text-accent gold-glow">DATA ANALYST</span>
             <span className="block text-sm md:text-xl">+</span>
-            <span className="block text-accent gold-glow">DEV FULLSTACK</span>
+            <span className="block text-accent gold-glow">FULLSTACK DEV</span>
           </h1>
 
           <p className="text-xs md:text-sm text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Transformo dados em insights poderosos e crio aplicações completas.
-            Como em um jogo, cada projeto é uma nova fase a conquistar! 🎮
+            I turn data into powerful insights and build end-to-end applications.
+            Like in a game, every project is a new level to conquer! 🎮
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -44,14 +44,14 @@ const Hero = () => {
               className="pixel-button bg-accent hover:bg-accent/90 text-background border-4 border-accent/50 text-xs md:text-sm gap-2"
             >
               <Sparkles className="h-4 w-4" />
-              VER PROJETOS
+              SEE PROJECTS
             </Button>
             <Button 
               size="lg" 
               variant="outline"
               className="pixel-button border-4 border-primary hover:bg-primary text-xs md:text-sm gap-2"
             >
-              BAIXAR CV
+              DOWNLOAD CV
               <ArrowDown className="h-4 w-4" />
             </Button>
           </div>
@@ -60,15 +60,15 @@ const Hero = () => {
           <div className="grid grid-cols-3 gap-4 max-w-2xl mx-auto pt-12">
             <div className="retro-card p-4 space-y-2">
               <p className="text-2xl md:text-3xl text-accent gold-glow">50+</p>
-              <p className="text-xs text-muted-foreground">PROJETOS</p>
+              <p className="text-xs text-muted-foreground">PROJECTS</p>
             </div>
             <div className="retro-card p-4 space-y-2">
               <p className="text-2xl md:text-3xl text-accent gold-glow">100%</p>
-              <p className="text-xs text-muted-foreground">DEDICAÇÃO</p>
+              <p className="text-xs text-muted-foreground">DEDICATION</p>
             </div>
             <div className="retro-card p-4 space-y-2">
               <p className="text-2xl md:text-3xl text-accent gold-glow">∞</p>
-              <p className="text-xs text-muted-foreground">CRIATIVIDADE</p>
+              <p className="text-xs text-muted-foreground">CREATIVITY</p>
             </div>
           </div>
         </div>
