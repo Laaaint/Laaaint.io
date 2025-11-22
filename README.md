@@ -2,7 +2,6 @@
 
 ![Deploy](https://img.shields.io/badge/Deploy_to_GitHub_Pages-passing-brightgreen)
 ![Status](https://img.shields.io/badge/Live-Demo-blue)
-![Build](https://img.shields.io/github/actions/workflow/status/laaaint/laaaint.github.io/deploy.yml?label=Build)
 
 > A modern and responsive portfolio showcasing my work as a **Data Analyst** and **Fullstack Developer**.
 
@@ -31,23 +30,90 @@
 
 ---
 
-## 🚀 Live Demo  
-🔗 **https://laaaint.github.io**
+🚀 Quick Start
+Prerequisites
 
----
+Node.js 18+ or Bun
 
-## 📦 Installation
+Git
 
-
+Installation
+1. Clone the repository
 git clone https://github.com/laaaint/laaaint.github.io.git
 cd laaaint.github.io
+
+2. Install dependencies
 npm install
+# or
+bun install
+
+3. Start development server
 npm run dev
 
-📄 License
-MIT License.
+4. Build for production
+npm run build
+
+5. Preview the production build
+npm run preview
+
+🌐 Deployment
+
+This project is deployed automatically using GitHub Actions.
+
+Whenever you push to the main branch:
+
+GitHub Actions installs dependencies
+
+Builds the project with Vite
+
+Publishes the /dist folder
+
+Hosts it at:
+
+👉 https://laaaint.github.io
+
+Vite configuration for GitHub Pages
+export default defineConfig({
+  base: "/",
+})
+
+
+Since this repository is named laaaint.github.io, GitHub Pages automatically serves from the root domain.
+
+🔄 Available Scripts
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint . --ext .ts,.tsx",
+  "format": "prettier --write ."
+}
+
+📌 Roadmap
+
+ Add a blog section
+
+ Add an email contact form
+
+ Add automated unit tests
+
+ Improve SEO and metadata
+
+ Add animated project case studies
 
 👩‍💻 Author
+
 Natália Rosa
+🌐 Portfolio: https://laaaint.github.io
+
 🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa
-🌐 Website: https://laaaint.github.io
+
+📧 Email: nataliaresmaciel@outlook.com
+
+📄 License
+
+MIT License — free to use, modify, and distribute.
+
+⭐ Support
+
+If you like this project, consider giving it a star on GitHub — it helps a lot! 🌟
