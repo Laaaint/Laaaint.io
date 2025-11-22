@@ -35,10 +35,7 @@
 Prerequisites:
 Node.js 18+ or Bun
 
-### Git
-
-Installation
-
+### Git Installation
 1. Clone the repository
 git clone https://github.com/laaaint/laaaint.github.io.git
 cd laaaint.github.io
@@ -53,20 +50,19 @@ npm install
 
 
 ### bun install
-
-3. Start development server
+1. Start development server
 
 ```bash
 npm run dev
 ```
 
-4. Build for production
+2. Build for production
 
 ```bash
 npm run build
 ```
 
-5. Preview the production build
+3. Preview the production build
 
 ```bash
 npm run preview
@@ -83,7 +79,6 @@ npm run preview
 ---
 
 ## Hosts it at:
-
 👉 https://laaaint.github.io
 
 ---
@@ -97,9 +92,7 @@ export default defineConfig({
 
 ```
 
-Since this repository is named laaaint.github.io, GitHub Pages automatically serves from the root domain.
-
-🔄 Available Scripts
+## 🔄 Available Scripts
 
 ```bash
 
@@ -113,6 +106,7 @@ Since this repository is named laaaint.github.io, GitHub Pages automatically ser
 ```
 
 ## 📌 Roadmap
+
  - **Add a blog section**
 
  - **Add an email contact form**
@@ -127,10 +121,10 @@ Since this repository is named laaaint.github.io, GitHub Pages automatically ser
 
 ## 👩‍💻 Author
 
-Natália Rosa
-🌐 Portfolio: https://laaaint.github.io
-🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa
-📧 Email: nataliaresmaciel@outlook.com
+<br>Natália Rosa<br>
+<br>🌐 Portfolio: https://laaaint.github.io<br>
+<br>🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa<br>
+<br>📧 Email: nataliaresmaciel@outlook.com<br>
 
 --- 
 
