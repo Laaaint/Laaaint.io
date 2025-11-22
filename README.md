@@ -37,8 +37,11 @@ Node.js 18+ or Bun
 
 ### Git Installation
 1. Clone the repository
+
+```bash
 git clone https://github.com/laaaint/laaaint.github.io.git
 cd laaaint.github.io
+```
 
 2. Install dependencies
 
@@ -75,11 +78,6 @@ npm run preview
 - **GitHub Actions installs dependencies**
 - **Builds the project with Vite**
 - **Publishes the /dist folder**
-
----
-
-## Hosts it at:
-👉 https://laaaint.github.io
 
 ---
 
