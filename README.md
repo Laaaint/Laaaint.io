@@ -1,73 +1,153 @@
-# Welcome to your Lovable project
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/d76ea6a9-24bf-4681-8ce7-3f8e97552a9e
+# 🇺🇸 **README (English)**
 
-## How can I edit this code?
+```markdown
+# 🌐 laaaint.github.io  
+### Professional Portfolio – Natália Rosa  
+**Data Analyst | Fullstack Developer**
 
-There are several ways of editing your application.
+This is the official repository of my professional portfolio, published directly at:  
+👉 **https://laaaint.github.io**
 
-**Use Lovable**
+The project was built using **React**, **TypeScript**, **Vite**, **TailwindCSS**, **Framer Motion**, **Shadcn UI**, and modern frontend architecture principles.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d76ea6a9-24bf-4681-8ce7-3f8e97552a9e) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Technologies
 
-**Use your preferred IDE**
+### **Frontend**
+- ⚛️ React + TypeScript  
+- ⚡ Vite  
+- 🎨 TailwindCSS  
+- 🧩 Shadcn UI  
+- ✨ Framer Motion  
+- 📦 React Icons  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### **Tools & Build**
+- 🔧 ESLint + Prettier  
+- 💨 GitHub Actions CI/CD  
+- ☁️ Automatic deployment to GitHub Pages  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 🎭 Smooth animations powered by Framer Motion  
+- 📱 Fully responsive layout  
+- 🌓 Light/Dark theme support  
+- 📌 Intro, skills, projects, and contact sections  
+- 📨 Contact form support (future implementation)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📁 Folder Structure (Overview)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+laaaint.github.io/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── hooks/
+│ ├── pages/
+│ ├── styles/
+│ └── main.tsx
+├── index.html
+├── vite.config.ts
+├── package.json
+└── README.md
+
+
+---
+
+## 🚀 Running Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/laaaint/laaaint.github.io.git
+
+2. Install dependencies
+npm install
+
+3. Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+4. Access:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+👉 http://localhost:5173/
 
-**Use GitHub Codespaces**
+🏗️ Production Build
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+Output will be generated in:
 
-This project is built with:
+dist/
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🌐 Deployment (GitHub Pages)
 
-## How can I deploy this project?
+Deployment is fully automated via GitHub Actions.
 
-Simply open [Lovable](https://lovable.dev/projects/d76ea6a9-24bf-4681-8ce7-3f8e97552a9e) and click on Share -> Publish.
+Because the repository name is laaaint.github.io, GitHub Pages serves the site at the domain root:
 
-## Can I connect a custom domain to my Lovable project?
+👉 https://laaaint.github.io
 
-Yes, you can!
+Important Vite config:
+export default defineConfig({
+  base: "/",
+})
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🔄 Available Scripts
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint . --ext .ts,.tsx",
+  "format": "prettier --write ."
+}
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📌 Roadmap
+
+ Add a blog section
+
+ Implement email contact form
+
+ Improve SEO and OpenGraph metadata
+
+ Add unit testing
+
+ Create additional animated project pages
+
+🤝 Contributing
+
+Create a branch:
+
+git checkout -b my-feature
+
+
+Commit your changes:
+
+git commit -m "feat: new feature"
+
+
+Push your branch:
+
+git push origin my-feature
+
+📄 License
+
+MIT License — free to use, modify, and distribute.
+
+👩‍💻 Author
+
+Natália Rosa
+🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa
+
+🌐 Portfolio: https://laaaint.github.io
+
+📧 Professional email: (add here)
+
+⭐ If you enjoyed it, give the project a star!
+
+It supports my work and helps others find it 💛
