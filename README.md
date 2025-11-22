@@ -30,57 +30,79 @@
 
 ---
 
-🚀 Quick Start
-Prerequisites
+## 🚀 Quick Start
 
+Prerequisites:
 Node.js 18+ or Bun
 
-Git
+### Git
 
 Installation
+
 1. Clone the repository
 git clone https://github.com/laaaint/laaaint.github.io.git
 cd laaaint.github.io
 
 2. Install dependencies
+
+```bash
+
 npm install
-# or
-bun install
+
+```
+
+
+### bun install
 
 3. Start development server
+
+```bash
 npm run dev
+```
 
 4. Build for production
+
+```bash
 npm run build
+```
 
 5. Preview the production build
+
+```bash
 npm run preview
+```
 
-🌐 Deployment
+## 🌐 Deployment
 
-This project is deployed automatically using GitHub Actions.
+ #### This project is deployed automatically using GitHub Actions.
+ Whenever you push to the main branch:
+- **GitHub Actions installs dependencies**
+- **Builds the project with Vite**
+- **Publishes the /dist folder**
 
-Whenever you push to the main branch:
+---
 
-GitHub Actions installs dependencies
-
-Builds the project with Vite
-
-Publishes the /dist folder
-
-Hosts it at:
+## Hosts it at:
 
 👉 https://laaaint.github.io
 
-Vite configuration for GitHub Pages
+---
+
+## 🚀 Vite configuration for GitHub Pages
+
+```bash
 export default defineConfig({
   base: "/",
 })
 
+```
 
 Since this repository is named laaaint.github.io, GitHub Pages automatically serves from the root domain.
 
 🔄 Available Scripts
+
+```bash
+
 "scripts": {
   "dev": "vite",
   "build": "vite build",
@@ -88,32 +110,36 @@ Since this repository is named laaaint.github.io, GitHub Pages automatically ser
   "lint": "eslint . --ext .ts,.tsx",
   "format": "prettier --write ."
 }
+```
 
-📌 Roadmap
+## 📌 Roadmap
+ - **Add a blog section**
 
- Add a blog section
+ - **Add an email contact form**
 
- Add an email contact form
+ - **Add automated unit tests**
 
- Add automated unit tests
+ - **Improve SEO and metadata**
 
- Improve SEO and metadata
+ - **Add animated project case studies**
 
- Add animated project case studies
+ ---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Natália Rosa
 🌐 Portfolio: https://laaaint.github.io
-
 🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa
-
 📧 Email: nataliaresmaciel@outlook.com
 
-📄 License
+--- 
 
-MIT License — free to use, modify, and distribute.
+## 📄 License
 
-⭐ Support
+**MIT License — free to use, modify, and distribute.**
+
+---
+
+## ⭐ Support
 
 If you like this project, consider giving it a star on GitHub — it helps a lot! 🌟
