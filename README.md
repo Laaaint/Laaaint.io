@@ -111,9 +111,7 @@ export default defineConfig({
  ---
 
 ## 👩‍💻 Author
-<br>Natália Rosa<br>
-<br>🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa<br>
-<br>📧 Email: nataliaresmaciel@outlook.com<br>
+<br>Natália Rosa<br><br>🔗 LinkedIn: https://www.linkedin.com/in/natresmaciel/<b><br>📧 Email: nataliaresmaciel@outlook.com<br>
 
 --- 
 
