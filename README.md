@@ -8,7 +8,6 @@
 ---
 
 ## ✨ Features
-
 - **Modern UI/UX** – Clean, elegant and professional design  
 - **Fully Responsive** – Works on all devices  
 - **Dark/Light Theme** – Dynamic theme switching  
@@ -20,7 +19,6 @@
 ---
 
 ## 🛠 Tech Stack
-
 - **Frontend Framework:** React + TypeScript  
 - **Build Tool:** Vite  
 - **Styling:** TailwindCSS + Shadcn UI  
@@ -31,7 +29,6 @@
 ---
 
 ## 🚀 Quick Start
-
 Prerequisites:
 Node.js 18+ or Bun
 
@@ -72,7 +69,6 @@ npm run preview
 ```
 
 ## 🌐 Deployment
-
  #### This project is deployed automatically using GitHub Actions.
  Whenever you push to the main branch:
 - **GitHub Actions installs dependencies**
@@ -82,7 +78,6 @@ npm run preview
 ---
 
 ## 🚀 Vite configuration for GitHub Pages
-
 ```bash
 export default defineConfig({
   base: "/",
@@ -91,7 +86,6 @@ export default defineConfig({
 ```
 
 ## 🔄 Available Scripts
-
 ```bash
 
 "scripts": {
@@ -104,7 +98,6 @@ export default defineConfig({
 ```
 
 ## 📌 Roadmap
-
  - **Add a blog section**
 
  - **Add an email contact form**
@@ -118,20 +111,16 @@ export default defineConfig({
  ---
 
 ## 👩‍💻 Author
-
 <br>Natália Rosa<br>
-<br>🌐 Portfolio: https://laaaint.github.io<br>
 <br>🔗 LinkedIn: https://www.linkedin.com/in/nataliarosa<br>
 <br>📧 Email: nataliaresmaciel@outlook.com<br>
 
 --- 
 
 ## 📄 License
-
 **MIT License — free to use, modify, and distribute.**
 
 ---
 
 ## ⭐ Support
-
 If you like this project, consider giving it a star on GitHub — it helps a lot! 🌟
